@@ -27,6 +27,7 @@
                 name="title"
                 bind:value={title}
                 placeholder="z. B. Wasser trinken"
+                required
             />
         </div>
 
@@ -49,6 +50,7 @@
                 name="unit"
                 bind:value={unit}
                 placeholder="z. B. Tassen, Stunden"
+                required
             />
         </div>
 
